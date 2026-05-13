@@ -31,7 +31,7 @@ pipeline {
 
         stage('Ejecutar pruebas') {
             steps {
-                echo 'Ejecutando pruebas...'
+                echo 'Ejecutando pruebas creadas...'
                 bat 'npm test'
             }
         }
